@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+button {
+  margin: 10px 0;
+  background-color: #233d4d;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fcca46;
+}
+
+body #splitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #splitter #content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 80%;
+  position: relative;
+}
+
+body #splitter #content .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #splitter #content .d-flex img {
+  height: 100px;
+}
+
+body #splitter #content #hero {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body #splitter #content #hero p {
+  font-size: large;
+}
+
+body #splitter #content #hero img {
+  height: auto;
+  width: 300px;
+}
+
+body #splitter #content #installation h2 {
+  margin-bottom: 10px;
+}
+
+body #splitter #content #installation .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  background-color: #233d4d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+body #splitter #content #installation .link button {
+  background-color: #233d4d;
+  border: none;
+  margin-left: auto;
+  cursor: pointer;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+body #splitter #content #usage {
+  margin-top: 100px;
+}
+
+body #splitter #content #usage h2 {
+  margin-bottom: 10px;
+}
+
+body #splitter #content #usage .link {
+  padding: 15px 10px;
+  background-color: #233d4d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+body #splitter #content #usage .animation-gallery {
+  margin-top: 100px;
+}
+
+body #splitter #content #usage .animation-gallery .d-flex {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #splitter #content #usage .animation-gallery .d-flex .box {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  background: #233d4d;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #splitter #content #usage .animation-gallery .d-flex .box img {
+  width: 90px;
+  height: auto;
+}
+
+body #splitter #content #usage .animation-gallery .d-flex button {
+  color: white;
+  width: 100%;
+}
+
+body #splitter #content #customization {
+  margin-top: 100px;
+}
+
+body #splitter #content #customization h2 {
+  margin-bottom: 10px;
+}
+
+body #splitter #content #customization h3 {
+  margin-top: 20px;
+}
+
+body #splitter #content #customization .link {
+  padding: 15px 10px;
+  background-color: #233d4d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+body #splitter #content #customization ul {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+body #splitter #content #about {
+  margin-top: 100px;
+}
+
+body #splitter #content #about .d-flex div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+}
+
+body #splitter #content #about .d-flex div img {
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: auto;
+}
+
+body #splitter #content footer {
+  background-color: #233d4d;
+  margin: 0 -20px;
+  margin-top: 20px;
+  padding: 15px 0;
+  color: white;
+}
+
+body #splitter #content footer p {
+  text-align: center;
+}
+
+body #splitter #content footer p a {
+  color: white;
+}
+
+body #splitter #sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  background-color: #233d4d;
+  color: white;
+}
+
+body #splitter #sidebar ul {
+  list-style-type: none;
+}
+
+body #splitter #sidebar ul li {
+  text-align: center;
+  margin-top: 50px;
+}
+
+body #splitter #sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+body #splitter #menu-icon {
+  display: none;
+  margin-left: auto;
+}
+
+body #splitter #menu-icon button {
+  background-color: transparent;
+}
+
+body #splitter #menu-icon button img {
+  width: auto;
+  height: 5px;
+}
+
+@media (max-width: 992px) {
+  #content {
+    width: 100% !important;
+  }
+  #content #hero img {
+    display: none;
+  }
+  #content #usage .animation-gallery .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #content #usage .animation-gallery .d-flex .box {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  #menu-icon {
+    display: block !important;
+    margin-left: auto;
+  }
+  #menu-icon button {
+    background-color: transparent;
+  }
+  #menu-icon img {
+    width: auto;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

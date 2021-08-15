@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/imgs/logo.png">
+    <title>Vision | Home Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/vision(minified).css">
+</head>
+
+<body>
+    <section id="splitter">
+        <section id="content">
+            <div class="d-flex">
+                <div>
+                    <img src="assets/imgs/logo.png" alt="logo">
+                    <img src="assets/imgs/vision.png" alt="vision">
+                </div>
+                <div id="menu-icon">
+                    <button onclick="showNavigation();"><img src="assets/imgs/menu-icon.png"
+                            alt="hamburger menu"></button>
+                </div>
+            </div>
+            <section class="d-flex" id="hero">
+                <div>
+                    <h2>Vision.css</h2>
+                    <p>Vision.css is a ligntweight CSS animation library with it's simple usage. It's easy to use just like making an omelete. It makes your headache of animating a website damn easy.</p>
+                    <button><a href="#installation">Get Started</a></button>
+                </div>
+                <div>
+                    <img src="assets/imgs/vision-body.png" class="vision pulseInfinite duration-3" alt="vision body">
+                </div>
+            </section>
+            <section id="installation">
+                <div>
+                    <h2>Installation</h2>
+                    <p>Installing Vision.css is easy. Just follow one of the below steps and you are done with installing great animation library.</p>
+                    <p class="link">
+                        <code>
+                            &lt;link rel="stylesheet" href="https://meetkalani.github.io/Vision/vision.css"&gt;
+                        </code>
+                        <button onclick="copyURL();">
+                            <img src="assets/imgs/copy-icon.png" />
+                        </button>
+                    </p>
+                    <p>To use Vision.css just add above link tag to your webpage</p>
+                    <button><a href="#">Download</a></button>
+                    <p>Wanna try it locally? You can Download or Clone Vision.css from my Github Repository.</p>
+                </div>
+            </section>
+            <section id="usage">
+                <h2>Usage</h2>
+                <p>After Installing Vision.css. Follow below steps to get up and running cool looking animation on your website.</p>
+                <p class="link">
+                    <code>
+                            &lt;div class="vision slideInLeft"&gt;&lt;div&gt;
+                        </code>
+                </p>
+                <p>To Animate your beloved website. Just add <strong>"vision"</strong> class to your element. after that choose one of the animation from our wide variety of animations and add the name of animation to your element. That's it. Now you are done with your headache of animating a website with cool looking animation.</p>
+
+                <div class="animation-gallery">
+                    <h3>SlideIn Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b1 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInLeft',1); ">
+                                slideInLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b2 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInRight',2); ">
+                                slideInRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b3 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInTop',3); ">
+                                slideInTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b4 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInBottom',4); ">
+                                slideInBottom
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b5 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInTopLeft',5); ">
+                                slideInTopLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b6 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInTopRight',6); ">
+                                slideInTopRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b7 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInBottomLeft',7); ">
+                                slideInBottomLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b8 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideInBottomRight',8); ">
+                                slideInBottomRight
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>SlideOut Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b9 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutLeft',9); ">
+                                slideOutLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b10 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutRight',10); ">
+                                slideOutRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b11 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutTop',11); ">
+                                slideOutTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b12 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutBottom',12); ">
+                                slideOutBottom
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b13 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutTopLeft',13); ">
+                                slideOutTopLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b14 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutTopRight',14); ">
+                                slideOutTopRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b15 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutBottomLeft',15); ">
+                                slideOutBottomLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b16 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('slideOutBottomRight',16); ">
+                                slideOutBottomRight
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>Fading Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b17 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('fadeIn',17); ">
+                                fadeIn
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b18 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('fadeOut',18); ">
+                                fadeOut
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>ZoomIn Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b19 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('zoomInUp',19); ">
+                                zoomInUp
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b20 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('zoomInDown',20); ">
+                                zoomInDown
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>ZoomOut Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b21 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('zoomOutUp',21); ">
+                                zoomOutUp
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b22 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('zoomOutDown',22); ">
+                                zoomOutDown
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>Rotate Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b23 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateLeft',23); ">
+                                rotateLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b24 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateRight',24); ">
+                                rotateRight
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>RotateIn Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b25 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInLeft',25); ">
+                                rotateInLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b26 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInRight',26); ">
+                                rotateInRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b27 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInTop',27); ">
+                                rotateInTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b28 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInBottom',28); ">
+                                rotateInBottom
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b29 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInTopLeft',29); ">
+                                rotateInTopLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b30 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInTopRight',30); ">
+                                rotateInTopRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b31 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInBottomLeft',31); ">
+                                rotateInBottomLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b32 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateInBottomRight',32); ">
+                                rotateInBottomRight
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>RotateOut Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b33 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutLeft',33); ">
+                                rotateOutLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b34 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutRight',34); ">
+                                rotateOutRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b35 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutTop',35); ">
+                                rotateOutTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b36 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutBottom',36); ">
+                                rotateOutBottom
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b37 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutTopLeft',37); ">
+                                rotateOutTopLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b38 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutTopRight',38); ">
+                                rotateOutTopRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b39 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutBottomLeft',39); ">
+                                rotateOutBottomLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b40 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('rotateOutBottomRight',40); ">
+                                rotateOutBottomRight
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>Bounce Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b41 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('bounceLeft',41); ">
+                                bounceLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b42 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('bounceRight',42); ">
+                                bounceRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b43 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('bounceTop',43); ">
+                                bounceTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b44 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('bounceBottom',44); ">
+                                bounceBottom
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>CircleIn Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b45 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleInLeft',45); ">
+                                circleInLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b46 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleInRight',46); ">
+                                circleInRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b47 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleInTop',47); ">
+                                circleInTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b48 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleInBottom',48); ">
+                                circleInBottom
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="animation-gallery">
+                    <h3>CircleOut Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b49 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleOutLeft',49); ">
+                                circleOutLeft
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b50 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleOutRight',50); ">
+                                circleOutRight
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b51 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleOutTop',51); ">
+                                circleOutTop
+                            </button>
+                        </div>
+                        <div>
+                            <div class="box b52 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('circleOutBottom',52); ">
+                                circleOutBottom
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="animation-gallery">
+                    <h3>Pulse Animation</h3>
+                    <div class="d-flex">
+                        <div>
+                            <div class="box b53 vision"><img src="assets/imgs/vision.png" alt="vision"></div>
+                            <button onclick="vision('pulseInfinite',53); ">
+                                pulseInfinite
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="customization">
+                <h2>Customization</h2>
+                <p>Customization of our animation is also easy as animating it.</p>
+                <h3>Duration</h3>
+                <p class="link">
+                    <code>
+                        &lt;div class="vision slideInLeft duration-1"&gt;&lt;div&gt;
+                    </code>
+                </p>
+                <p>Vision.css provides the following durations:</p>
+                <ul>
+                    <li>duration-1</li>
+                    <li>duration-2</li>
+                    <li>duration-3</li>
+                    <li>duration-4</li>
+                    <li>duration-5</li>
+                </ul>
+                <p style="margin-top:10px;">To Increase duration of animation add on of the above customization's class to your element and don't forget to add <strong>"vision"</strong> class to your element</p>
+                <h3>Iteration</h3>
+                <p class="link">
+                    <code>
+                        &lt;div class="vision slideInLeft infinite"&gt;&lt;div&gt;
+                    </code>
+                </p>
+                <p>To make your element animated for infinite times. You can add <strong>"infinite"</strong> classs to your element</p>
+            </section>
+
+            <section id="about">
+                <h2>About</h2>
+                <div class="d-flex">
+                    <div>
+                        <img src="assets/imgs/portrait.png" alt="Meet Kalani">
+                        <center>
+                            <h3><a href="https://meetkalani.github.io/Portfolio">Meet Kalani</a></h3>
+                            <h4>Vision.css Creator</h4>
+                        </center>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>Vision.css by <a href="https://meetkalani.github.io/Portfolio">Meet Kalani</a></p>
+            </footer>
+        </section>
+        <section id="sidebar" class="vision slideInRight">
+            <ul>
+                <li><a href="#splitter">Getting Started</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#customization">Customization</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <button onclick="hideNavigation();" class="close-btn"><img src="assets/imgs/close-icon.png" /></button>
+        </section>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
