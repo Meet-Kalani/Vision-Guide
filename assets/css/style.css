@@ -289,6 +289,10 @@ body #splitter #menu-icon button img {
   #content {
     width: 100% !important;
   }
+  #content .navbar img{
+    height:60px !important;
+    width:auto;
+  }
   #content #hero img {
     display: none;
   }
@@ -301,6 +305,11 @@ body #splitter #menu-icon button img {
   #content #usage .animation-gallery .d-flex .box {
     width: 200px !important;
     height: 200px !important;
+  }
+  #installation .link code{
+    max-width:100%;
+    text-overflow:ellipsis;
+    overflow:hidden;
   }
   #menu-icon {
     display: block !important;
